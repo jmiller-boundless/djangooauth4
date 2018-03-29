@@ -12,7 +12,6 @@ share/
 lib64
 pip-selfcheck.json
 pyvenv.cfg
-local/
 include/
 
 # Distribution / packaging
