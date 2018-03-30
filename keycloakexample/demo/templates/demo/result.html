@@ -31,6 +31,14 @@
             <td>{{value}}</td>
         </tr>
         {% endfor %}
+        <tr>
+            <td>id_token</td>
+            <td>{{id_token}}</td>
+        </tr>
+        <tr>
+            <td>access_token</td>
+            <td>{{access_token}}</td>
+        </tr>
         </tbody>
     </table>
     <a href="{% url 'logout' %}?next=unprotected">Logout</a>
